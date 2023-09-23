@@ -1,0 +1,130 @@
+/*Fonte EB Garamond:
+font-family: 'EB Garamond', serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+/*
+A paleta de cores usada está aqui: https://colorhunt.co/palette/952323a73121dad4b5f2e8c6
+*/
+/*===================================================================================================*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+    color: #000000;
+    font-size: 2.7vh;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #DAD4B5;   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+body #cabecalho_pagina{
+    background-color: #952323;
+    height: 16vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5vh;
+    border-bottom: solid 0.5vh #000;
+    margin-bottom: 7vh;
+}
+body #cabecalho_pagina div #titulo_pagina{
+    color: #FFF;
+    font-size: 12vh; /*80px*/
+    font-weight: 550;
+    text-align: center;
+    height: 14vh; /*82px*/
+    margin-top: -2.8vh;
+    border-bottom: solid 0.4vh #f2e8c660;
+}
+body #cabecalho_pagina div #subtitulo_pagina{
+    color: #ffffff9d;
+    text-align: center;
+    font-style: italic;
+    font-size: 2.3vh;
+}
+body #cabecalho_pagina img{
+    width: 16vh;
+}
+body main{
+    display: flex;
+    gap: 7vh;
+    margin: 0vh 5vh;
+    height: 250vh;
+}
+body main #publicacoes{
+    width: 120vh; /*130vh*/
+    height: 100vh;
+}
+body main #publicacoes div{
+    display: flex;
+    flex-direction: column;;
+    gap: 1vh;
+}
+body main #publicacoes div h2{
+    font-size: 6vh;
+    line-height: 6vh;
+}
+body main #publicacoes div p{
+    text-align: justify;
+}
+body main #publicacoes div span p{
+    color: #00000091;
+    font-size: 2.3vh;   
+}
+body main #topicos{
+    width: 45vh;
+    
+}
+body main #topicos div{
+    background-color: #F2E8C6;
+    margin-bottom: 1vh;
+    border-radius: 2%;
+}
+body main #topicos div header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #952323;
+    color: #FFF;
+    height: 6vh;
+}
+body main #topicos div header p{
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3.3vh;
+}
+body main #topicos div ul{
+    padding: 1.6vh 0;
+}
+body main #topicos div ul li{
+    margin-left: 3vh;
+}
+#pagina_publicacao main h1{
+    font-size: 6vh;
+    line-height: 6vh;
+}
+
+#pagina_publicacao main #publicacoes div>p{
+    font-size: 3.5vh;
+}
+#pagina_publicacao main #publicacoes div .texto_biblico p{
+    display: block;
+    margin: 2vh 4vh;
+    font-size: 3vh;
+    color: #000000b6;
+}
+
+footer{
+    width: 100px;
+    height: 100px;
+    border: solid 3px #000;
+}
